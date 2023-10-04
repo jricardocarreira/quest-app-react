@@ -1,6 +1,6 @@
 import './App.css';
-import Paragraph from './components/paragraph/paragraph.js'
-import Button from './components/button/button.js'
+import StyledText from './components/StyledText/index.js'
+import AlertButton from './components/AlertButton/index.js'
 
 
 function App() {
@@ -8,15 +8,15 @@ function App() {
     <>
       <div>
         <h2>Primeira Quest</h2>
-        <Paragraph />
-        <Paragraph content='Outro texto com mesmo estilo'/>
-        <Paragraph color='#29b'/>
+        <StyledText />
+        <StyledText content='Outro texto com mesmo estilo'/>
+        <StyledText color='#29b'/>
       </div>
       <div>
         <h2>Segunda Quest</h2>
-        <Button label='Baixar CV'/>
-        <Button label='Saiba mais'/>
-        <Button />
+        <AlertButton label='Baixar CV'/>
+        <AlertButton label='Saiba mais'/>
+        <AlertButton />
       </div>
     </>
   );

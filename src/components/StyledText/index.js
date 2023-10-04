@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './paragraph.css'
+import './index.css'
 
-const Paragraph = (props) => {
+const StyledText = (props) => {
     return (
         <p
             className='paragraph'
@@ -12,9 +12,9 @@ const Paragraph = (props) => {
     )
 }
 
-Paragraph.defaultProps = { 
+StyledText.defaultProps = { 
     content: 'Texto colorido e em maiúsculo',
     color: '#92b'
 }
 
-export default Paragraph
+export default StyledText
